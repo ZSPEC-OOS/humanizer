@@ -1,0 +1,13 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #1f2937; background: #f5f7fb; }
+body { margin: 0; }
+.app { max-width: 1100px; margin: 0 auto; padding: 20px; }
+.tabs { display: flex; gap: 8px; margin-bottom: 16px; }
+button { border: none; background: #2563eb; color: white; padding: 8px 12px; border-radius: 8px; cursor: pointer; }
+button.active { background: #0f172a; }
+.card { background: white; padding: 16px; border-radius: 12px; box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08); margin-bottom: 12px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 8px; }
+textarea, input, select { width: 100%; padding: 8px; border: 1px solid #cbd5e1; border-radius: 8px; box-sizing: border-box; }
+.diff { max-height: 220px; overflow: auto; background: #0f172a; color: #e2e8f0; padding: 12px; border-radius: 8px; }
+@media (max-width: 840px) { .grid, .grid3 { grid-template-columns: 1fr; } }
