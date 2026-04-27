@@ -1,0 +1,97 @@
+{
+  "framework_version": "0.1",
+  "purpose": "Reference knowledge base for learning AI→humanized rewrite patterns from paired examples.",
+  "examples": [
+    {
+      "example_id": "science_quantum_001",
+      "domain": "Quantum Physics",
+      "ai_text": "Quantum physics, the branch of science that examines matter and energy at the most fundamental scales, reveals a universe that defies classical intuition. At the quantum level, particles such as electrons and photons exhibit wave-particle duality, behaving simultaneously as discrete particles and spread-out waves depending on the observation method. The famous double-slit experiment demonstrates this paradox: when unobserved, particles create an interference pattern characteristic of waves, but when measured, they collapse into definite particle-like positions. This phenomenon is governed by the Schrödinger equation, which describes the evolution of quantum states through superposition—where particles exist in multiple states at once until observation forces a \"collapse\" into a single reality. Quantum entanglement further challenges our understanding of space and time, allowing pairs of particles to instantaneously correlate their properties regardless of distance, a feature Einstein famously criticized as \"spooky action at a distance.\" Today, these principles power transformative technologies including quantum computing, which leverages qubits to perform calculations exponentially faster than classical computers for specific problems, and quantum cryptography, which promises theoretically unbreakable encryption through the no-cloning theorem.",
+      "human_text": "Quantum Physics is the study of matter and energy at the smallest scale possible; it shows us a world where we cannot use the classical view of how things work. In the quantum world (the smallest scale), there are two examples of how matter behaves—wave/particle behavior. For example, electrons and photons can be both a particle (discrete object) and a wave (a collection of objects).\nWhen we do experiments like the double-slit experiment, when unmeasured (unobserved), particles will produce an interference pattern, typical of waves, but when measured (observed), particles will behave like particles and take one position. This type of measurement is described using the Schrödinger equation, which describes the changes that occur over time from one state to another in a quantum system. In other words, particles have many states available to them until observed/measurements force the “collapsing” of all those states into just one.\nAnother mind-bending concept called entanglement makes it even harder to understand what happens with space and time. When two particles are created together and separated, whatever occurs to one particle instantly affects its partner, whether or not they are close together. Einstein was concerned about this phenomenon because he believed it showed “spooky action at a distance.”\nThese concepts make new technology, including quantum computing and quantum cryptography, possible. Quantum computing uses special computer bits (qubits) to perform calculations much faster than regular computers for certain types of problems. Quantum cryptography has the potential to provide unbreakable encryption due to the no-cloning theorem.",
+      "notes": "Seed example: technical concepts preserved, but prose becomes instructional and more explicitly explanatory."
+    },
+    {
+      "example_id": "science_chemistry_001",
+      "domain": "Chemistry",
+      "ai_text": "Chemistry stands as the central science, bridging the gap between the subatomic world of physics and the complex systems of biology by studying the composition, structure, properties, and reactions of matter. At its core lies the periodic table, a masterful organization of elements based on atomic number and electron configuration that predicts chemical behavior with remarkable accuracy. Chemical bonding—whether ionic, covalent, or metallic—arises from the electromagnetic interactions between electrons and nuclei, determining everything from the salt on your table to the DNA in your cells. Modern chemistry extends far beyond traditional beakers and Bunsen burners into computational chemistry, where molecular dynamics simulations and density functional theory allow scientists to model reactions and design new materials virtually before synthesizing them physically. Green chemistry has emerged as a critical paradigm, focusing on atom-economical processes that minimize waste and environmental impact, while supramolecular chemistry explores how molecules self-assemble into complex architectures, mimicking nature's ability to build functional structures from simple building blocks. From developing next-generation battery electrolytes to creating targeted pharmaceutical agents, chemistry remains the practical engine translating theoretical understanding into tangible innovations that shape modern civilization.",
+      "human_text": "Chemistry is often referred to as the \"central science\" because it bridges the gap between the subatomic scale of physics and the complexity of biology through the study of the composition, structure, properties, and reactions of all types of matter. The foundation of chemistry rests upon the Periodic Table, an ingenious organization of elements which correlates their atomic number and electron configuration to accurately predict their chemical behavior. All forms of chemical bonding (ionic, covalent, and metallic) arise from electromagnetic interactions between electrons and nuclei and ultimately determine everything from the salt you sprinkle on your food to the DNA in each cell of your body.\nModern chemistry has moved far beyond the confines of the laboratory with the advent of computational chemistry. With molecular dynamics simulation techniques and density functional theory (DFT), chemists are able to simulate reaction pathways and even design new materials prior to physically synthesizing them. Another important area of focus for modern chemistry is green chemistry. This area emphasizes atom-economical synthetic methods that generate minimal waste and less environmentally hazardous byproducts. Supramolecular chemistry is another key emerging field that studies how individual molecules can self-assemble into higher-order architectures that mimic the natural ability to create functional structures from relatively simple building blocks. Examples of areas where chemistry will continue to play a leading role include developing new electrolyte solutions for batteries, designing targeted drug delivery vehicles for pharmaceuticals, etc. Ultimately, chemistry provides a direct link between the scientific theories developed to explain the behavior of atoms and molecules and their eventual application as new technologies that have shaped modern society.",
+      "notes": "Seed example: humanized version retains formal technical vocabulary but separates modern chemistry topics into clearer teaching sequence."
+    },
+    {
+      "example_id": "science_biology_001",
+      "domain": "Biology",
+      "ai_text": "Biology investigates the intricate tapestry of life across scales ranging from molecular machines within cells to global ecosystems spanning continents. The cell theory, established in the 19th century, remains foundational: all living organisms are composed of cells, which serve as the basic units of structure, function, and reproduction. Within these microscopic compartments, the central dogma of molecular biology describes the flow of genetic information—DNA transcribes into RNA, which translates into proteins, the workhorses that catalyze reactions, provide structural support, and regulate cellular processes. The discovery of CRISPR-Cas9 gene editing has revolutionized biology, offering precise molecular scissors to modify genomes with unprecedented accuracy, opening therapeutic avenues for genetic diseases previously considered untreatable. Systems biology takes a holistic approach, integrating genomics, proteomics, and metabolomics data to model biological networks as complex interacting systems rather than isolated pathways. Evolutionary biology provides the unifying framework, explaining the diversity of life through natural selection acting on heritable variation over deep time. From understanding how microbiomes influence human health to decoding the neural circuits underlying consciousness, biology continues to reveal that life, despite its apparent complexity, operates through elegant principles that we are only beginning to comprehend.",
+      "human_text": "The science of biology is an examination of the intricacies of life at many different levels, including molecules in individual cells and whole ecosystems (i.e., large areas such as continents). Over one hundred years ago, scientists developed the \"Cell Theory,\" which states that all living things are made up of tiny building blocks called cells. Cells represent the smallest level of organization that can still be considered alive and are responsible for carrying out functions like growth, reproduction, and providing structural support.\nAt this microscopic level, there exists a process known as the \"Central Dogma\" of molecular biology. This process explains how DNA is converted into messenger RNA (mRNA), then translated into protein. Proteins have several roles; they act as catalysts (enzymes) during chemical reactions, act as structural components or scaffolds for other cellular structures, and help regulate various processes that occur in cells.\nA new tool called CRISPR-Cas9 (gene editing) has dramatically changed our ability to study biology by allowing researchers to make specific changes to a genome using extremely high precision. Gene editing is now being used to develop treatments for genetic diseases that were once thought to be incurable.\nAn additional area of research that has expanded upon traditional methods of studying biology is \"Systems Biology.\" Unlike traditional approaches, where each pathway in a biological system was studied independently of others, systems biology studies entire biological systems as highly interconnected systems. Using tools like genomic analysis (the complete set of genes found in an organism's genome), proteomic analysis (the complete set of proteins produced by an organism's genome), and metabolomics (the complete set of metabolic products found in an organism), researchers use computational models to understand the interactions among all components of biological systems.\nFinally, evolutionary biology represents a framework for understanding the vast diversity of life on Earth by demonstrating how all living things share a common ancestry due to a long history of evolution via natural selection acting on inherited traits.",
+      "notes": "Seed example: major expansion through definitions, paragraph segmentation, and explicit conceptual scaffolding."
+    }
+  ],
+  "rule_bank": [
+    {
+      "rule": "Preserve all essential scientific concepts and named technical terms unless they are unnecessary for the target audience.",
+      "source_examples": [
+        "science_quantum_001",
+        "science_chemistry_001",
+        "science_biology_001"
+      ],
+      "status": "active"
+    },
+    {
+      "rule": "Break dense AI paragraphs into smaller instructional paragraphs organized by concept.",
+      "source_examples": [
+        "science_quantum_001",
+        "science_biology_001"
+      ],
+      "status": "active"
+    },
+    {
+      "rule": "Replace ornate or promotional phrasing with direct explanatory language.",
+      "source_examples": [
+        "science_quantum_001",
+        "science_chemistry_001",
+        "science_biology_001"
+      ],
+      "status": "active"
+    },
+    {
+      "rule": "Define technical terms immediately after first use, especially by parenthetical clarification.",
+      "source_examples": [
+        "science_quantum_001",
+        "science_chemistry_001",
+        "science_biology_001"
+      ],
+      "status": "active"
+    },
+    {
+      "rule": "Use teaching transitions such as 'For example,' 'In other words,' 'Another,' and 'Finally' to make the logic explicit.",
+      "source_examples": [
+        "science_quantum_001",
+        "science_biology_001"
+      ],
+      "status": "active"
+    },
+    {
+      "rule": "Convert abstract claims into concrete explanatory statements that identify what happens, when it happens, and why it matters.",
+      "source_examples": [
+        "science_quantum_001",
+        "science_biology_001"
+      ],
+      "status": "active"
+    },
+    {
+      "rule": "Add mild redundancy when it improves comprehension, especially for difficult concepts.",
+      "source_examples": [
+        "science_quantum_001",
+        "science_biology_001"
+      ],
+      "status": "active"
+    },
+    {
+      "rule": "Maintain a formal but classroom-accessible tone rather than a highly polished synthetic tone.",
+      "source_examples": [
+        "science_chemistry_001",
+        "science_biology_001"
+      ],
+      "status": "active"
+    }
+  ],
+  "analysis_log": []
+}
