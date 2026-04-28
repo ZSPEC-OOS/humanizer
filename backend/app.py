@@ -1,5 +1,15 @@
+from pathlib import Path
+import sys
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
+# Ensure local src/ layout works when app is launched without installing package.
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
+if SRC.exists():
+    sys.path.insert(0, str(SRC))
+
 from backend.api.routes import router
 
 app = FastAPI(title="Humanizer Lab API")
